@@ -1,0 +1,13 @@
+POST http://localhost:3000/entries/add
+content-type: application/json
+
+{
+    "date": "2022-05-19",
+    "title": "En bra dag",
+    "text": "Hej kära dagbok, idag her det varit en mycket bra dag!"
+}
+
+###
+
+GET http://localhost:3000/entries
+content-type: application/json
